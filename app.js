@@ -58,6 +58,7 @@ var createNewTaskElement=function(taskString){
     editInput.classList.add("section__input" , "section__task", "list-item__input")
     editButton.classList.add("section__button" , "section__button--edit")
     deleteButton.classList.add("section__button", "section__button--delete")
+    deleteButtonImg.classList.add("button__image")
     return listItem;
 }
 

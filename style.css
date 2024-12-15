@@ -121,12 +121,12 @@ button:hover {
 .list-item__input {
     width: 226px;
 }
-.section__button--delete img {
+.button__image {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.section__button--delete img:hover {
+.button__image:hover {
     transform: rotateZ(0);
 }
 
