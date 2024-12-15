@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="header">
-      <img src="./eisenhower-matrix.jpg" alt="eisenhower matrix image">
+      <img class="header__img" src="./eisenhower-matrix.jpg" alt="eisenhower matrix image">
       <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
@@ -25,15 +25,15 @@
         <ul id="incomplete-tasks" class="section__list">
           <li class="section__list-item">
             <input type="checkbox" class="section__checkbox">
-            <label class="section__task">Pay Bills</label>
-            <input type="text" class="section__task">
+            <label class="section__task list-item__label">Pay Bills</label>
+            <input type="text" class="section__input section__task list-item__input">
             <button class="section__button section__button--edit">Edit</button>
             <button class="section__button--delete section__button--delete"><img src="./remove.svg" alt="remove icon"></button>
           </li>
-          <li class="section__list-item section__list-item--edit-mode">
+          <li class="section__list-item section__list-item--edit">
             <input type="checkbox" class="section__checkbox">
-            <label class="section__task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="section__task">
+            <label class="section__task list-item__label">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="section__input section__task list-item__input">
             <button class="section__button section__button--edit">Save</button>
             <button class="section__button section__button--delete"><img src="./remove.svg" alt="remove icon"></button>
           </li>
@@ -41,11 +41,11 @@
       </section>
       <section class="section">
         <h3 class="section__title">Completed</h3>
-        <ul id="completed-tasks" class="section__list">
+        <ul id="completed-tasks" class="section__list section__list--completed">
           <li class="section__list-item">
             <input type="checkbox" checked>
-            <label class="section__task section__task--completed">See the Doctor</label>
-            <input type="text" class="section__task">
+            <label class="section__task list-item__label ">See the Doctor</label>
+            <input type="text" class="section__input section__task list-item__input">
             <button class="section__button section__button--edit">Edit</button>
             <button class="section__button section__button--delete"><img src="./remove.svg" alt="remove icon"></button>
           </li>
